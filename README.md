@@ -13,7 +13,10 @@ La recherche par type, par nom et par adresse et la multi critères malgré ces 
 -----
 L'affichage du top 4 des restaurants sur la page d'accueil
 
-## --------------------------------------------------------------------------------------------------------------------------------
+## -----------------------
+
+# Fonctionnalité ajoutée :
+Pouvoir cliquer sur les types de la page accueil afin d'acceder à la liste des restaurants avec ce type.
 
 # Les *NOMBREUX* supprimés
 
