@@ -161,7 +161,7 @@ class RestoDAO {
 
      public static function getAllByTypeR($typeR): array {
                                                                           
-        if (isset($_SERVER['HTTP_REFERER']) && ($_SERVER['HTTP_REFERER'] === 'http://localhost/html/Annee3/projetRestoE5/?action=accueil' || $_SERVER['HTTP_REFERER'] === 'http://10.15.253.250/mgarnier/projetRestoE5/?action=accueil')) {
+        if (isset($_SERVER['HTTP_REFERER']) && ($_SERVER['HTTP_REFERER'] === 'http://localhost/html/Annee3/projetRestoE5/?action=accueil' || $_SERVER['HTTP_REFERER'] === 'http://10.15.253.250/mgarnier/projetRestoE5/?action=accueil' || $_SERVER['HTTP_REFERER'] === 'http://10.15.253.250/mgarnier/projetRestoE5/')) {
             // Le visiteur vient de la page d'accueil du site
             $lesObjets = array();
             $typeAcc = isset($_POST['typeR']) ? $_POST['typeR'] : null;
