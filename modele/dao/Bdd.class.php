@@ -17,9 +17,9 @@ class Bdd {
      * @var PDO Objet de type PDO, dépositaire de la connexion courante à la BDD
      */
     private static ?PDO $pdo=null;                                              //Sur le serveur de la Jol
-    private static $login = "resto_util";   // login utilisateur de la BDD      mgarnier
-    private static $mdp = "secret";         // mdp  utilisateur de la BDD       HhY+8wN@4M
-    private static $bd = "resto2";          // nom de la BDD                    mgarnier_resto2
+    private static $login = "mgarnier";   // login utilisateur de la BDD      mgarnier
+    private static $mdp = "HhY+8wN@4M";         // mdp  utilisateur de la BDD       HhY+8wN@4M
+    private static $bd = "mgarnier_resto2";          // nom de la BDD                    mgarnier_resto2
     private static $serveur = "localhost";  // nom de domaine du serveur de BDD
     private static $pdoOptions = array  (
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"   // pour récupérer les données en UTF8

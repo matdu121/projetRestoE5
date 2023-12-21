@@ -8,6 +8,7 @@
 
  * @version 08/2021 Gestion des exceptions
  */
+
 require_once "getRacine.php";
 require_once "$racine/includes/gestionErreurs.inc.php";         // fonctions de gestion des messages d'erreurs
 require_once "$racine/includes/autoload.inc.php";               // fonction de chargement automatique des classes (couche modele)
