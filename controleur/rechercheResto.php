@@ -95,7 +95,7 @@ switch($critere){
     
     case 'multi':
         // recherche multi-critere
-        $listeRestos = RestoDAO::getAllMultiCriteres($nomR,$voieAdrR, $cpR, $villeR,$tabIdTC);
+        $listeRestos = RestoDAO::getAllMultiCriteres($nomR,$voieAdrR, $cpR, $villeR);
         break;
     case 'type':
         //recherche par type

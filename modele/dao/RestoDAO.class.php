@@ -187,7 +187,7 @@ class RestoDAO {
             }
             return $lesObjets;
         } else {
-            // Le visiteur ne vient pas de la page source spécifiée. Traitement normal
+            // Le visiteur ne vient pas de la page d'accueil. Traitement normal
             $lesObjets = array();
         try {
             $requete = "SELECT * FROM resto INNER JOIN typecuisine_resto ON typecuisine_resto.idR = resto.idR";
